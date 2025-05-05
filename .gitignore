@@ -1,0 +1,31 @@
+#  Python virtual envs
+env/
+venv/
+.venv/
+
+#  Compiled Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+#  Node.js / Next.js
+node_modules/
+.next/
+dist/
+build/
+
+#  Environment files
+.env
+.env.*.local
+
+#  macOS artifacts
+.DS_Store
+__MACOSX/
+
+#  Logs and databases
+*.log
+*.sqlite3
+
+#  IDE / Editor folders
+.vscode/
+.idea/
