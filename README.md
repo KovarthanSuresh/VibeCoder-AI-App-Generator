@@ -1,6 +1,6 @@
 # 🎸 VibeCoder — AI-Powered Full-Stack Code Generator
 
-Turn plain-English prompts into a full-stack application in seconds, powered by DeepSeek R1 Distilled Llama 70B model.
+Turn plain-English prompts into a full-stack application in seconds, powered by DeepSeek R1 Llama 70B model.
 
 ---
 
