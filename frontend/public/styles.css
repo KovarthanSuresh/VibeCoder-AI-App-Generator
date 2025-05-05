@@ -1,0 +1,142 @@
+/* File: frontend/public/styles.css */
+
+/* — Base & Background — */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2d3748;
+    color: #f1f5f9;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* — Sidebar (Left Panel) — */
+  .sidebar {
+    width: 33.333%;
+    min-width: 300px;
+    background-color: #1a202c;
+    padding: 2rem 2rem 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   /* stay at top */
+    gap: 1.5rem;
+  }
+  
+  .input-group {
+    background-color: #2d3748;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 0.25rem 0;
+    border: none;
+    border-radius: 4px;
+    background: transparent;
+    color: #f1f5f9;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+  }
+  
+  .input-group input::placeholder,
+  .input-group textarea::placeholder {
+    color: #9ca3af;
+  }
+  
+  .input-group textarea {
+    min-height: 3rem;
+  }
+  
+  /* — Generate Button — */
+  .sidebar button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 18px;
+    background-color: #4f46e5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .sidebar button:hover:not(:disabled) {
+    background-color: #4338ca;
+  }
+  .sidebar button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  /* — Main Panel (Right Side) — */
+  .main {
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto;
+  }
+  
+  /* — App Title in Main — */
+  .app-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+  }
+  
+  /* — Code Bubble Titles — */
+  .file-title {
+    font-size: 1.75rem;  /* larger */
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: #ffffff;
+  }
+  
+  /* — Code Container (inside ChatBubble) — */
+  .code-container {
+    position: relative;
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 1.25rem 1rem 1rem;
+    overflow-x: auto;
+    margin-bottom: 2rem;
+  }
+  
+  /* — Code Block — */
+  pre {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    color: #f9fafb;
+    background: transparent;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  
+  /* — Copy Button — */
+  .copy-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: #374151;
+    color: #ffffff;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .copy-btn:hover {
+    background-color: #4b5563;
+  }
+  

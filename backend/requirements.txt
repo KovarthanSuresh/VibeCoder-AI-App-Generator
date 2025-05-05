@@ -1,0 +1,5 @@
+# File: vibecoder/backend/requirements.txt
+fastapi
+uvicorn[standard]
+pydantic
+requests

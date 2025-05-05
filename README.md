@@ -1,0 +1,3 @@
+# VibeCoder
+
+Scaffold placeholder README.
