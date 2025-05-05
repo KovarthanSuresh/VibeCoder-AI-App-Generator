@@ -6,6 +6,8 @@ Turn plain-English prompts into a full-stack application in seconds, powered by 
 
 ## 🎥 Demo
 
+Watch the demo by clicking the image below 👇
+
 [![Watch the demo](media/screenshots/main_screen.png)](media/demo.mp4)
 
 ---
