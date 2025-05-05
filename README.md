@@ -6,9 +6,7 @@ Turn plain-English prompts into a full-stack application in seconds, powered by 
 
 ## 🎥 Demo
 
-<video src="media/demo.mp4" controls width="720">
-  Your browser does not support the video tag.
-</video>
+[![Watch the demo](media/demo-thumbnail.png)](media/demo.mp4)
 
 ---
 
