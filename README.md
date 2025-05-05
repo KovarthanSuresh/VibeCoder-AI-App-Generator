@@ -6,20 +6,20 @@ Turn plain-English prompts into a full-stack application in seconds, powered by 
 
 ## 🎥 Demo
 
-[![Watch the demo](media/demo-thumbnail.png)](media/demo.mp4)
+[![Watch the demo](media/screenshots/main_screen.png)](media/demo.mp4)
 
 ---
 
 ## 📸 UI Screenshots
 
 **1. User Inputs Panel**
+
 ![User Inputs Panel](media/screenshots/user_inputs.png)
 
 **2. Generated Code Panel**
+
 ![Generated Code Panel](media/screenshots/generated_code.png)
 
-**3. Main Screen**
-![Main Screen](media/screenshots/main_screen.png)
 
 ---
 
